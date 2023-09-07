@@ -1,0 +1,83 @@
+body{
+background-color:cadetblue;
+display: grid;
+position: relative;
+}
+
+div{
+	position: relative;
+text-align: center;}
+
+header{text-align: center;
+width: 100%;
+background-image: url('img/back.png');
+background-repeat:no-repeat;
+}
+
+
+img{
+	height: 150px;
+	width: 200px;
+}
+
+#indic{
+	position: absolute;
+	right: 40px;
+	top:80px;
+}
+
+p{
+	position: absolute;
+	top: 10px;
+	left: 80px;
+}
+
+main{
+	height: 600px;
+	width: 600px;
+	margin-top:50px;
+	margin-bottom:50px;
+	margin-left:auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+.carre{
+	height:12px;
+	width: 12px;
+	background-color: white;
+	float: left;
+}
+
+span{
+	height: 25px;
+	width:30px;
+	text-align: center;
+	border: 2x solid black;
+	position: absolute;
+	left: 300px;
+	top: 25px;
+	text-align: center;
+}
+
+#y{
+
+left: 270px;
+top: 25px;
+background-image:url("img/paint.png");
+}
+
+#x{
+background-image:url("img/del.png")	
+}
+
+h1{
+	color: white;
+	font-family: Arial;
+	background-color: black;
+	border:1px solid black;
+	border-radius: 50%;
+	background-color: black;
+	margin: 10px 30%}
+}
+
